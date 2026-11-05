@@ -1,2 +1,8 @@
-/** Registration metadata for this skeleton; not a domain or API schema. */
-export const moduleDefinition = {id: 'module-boilerplate-nextjs', presentation: 'next-react', status: 'skeleton'} as const;
+/** Skeleton registration metadata; this is not a domain/API contract. */
+export const moduleDefinition = {
+  "id": "module-cms-editorial-workflow-nextjs",
+  "presentation": "next-react",
+  "capabilityKey": "planned:cms:editorial-workflow",
+  "status": "skeleton",
+  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/cms/nextjs/editorial-workflow.md"
+} as const;
